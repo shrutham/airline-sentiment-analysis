@@ -3,8 +3,10 @@ from src.predict import predict_sentiment
 
 st.title("✈ Airline Sentiment Analyzer")
 
-user_input = st.text_area("Enter a tweet")
-
+user_input = st.text_area(
+    "Enter a tweet",
+    placeholder="e.g., Flight was delayed but staff were helpful"
+)
 if st.button("Analyze"):
     if user_input.strip():
         result = predict_sentiment(user_input)
