@@ -26,3 +26,5 @@ The model tends to classify mixed-sentiment sentences as negative due to the pre
 
 ## Live Demo
 https://airline-sentiment-analysis-mdfpgqpnhbc25vwqckhcj3.streamlit.app/
+
+<img width="1042" height="436" alt="image" src="https://github.com/user-attachments/assets/49017182-0dbf-4a31-a636-c7437a1e3805" />
