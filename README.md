@@ -23,3 +23,6 @@ streamlit run app.py
 
 ## Insights on Outputs
 The model tends to classify mixed-sentiment sentences as negative due to the presence of strong negative keywords. This highlights a limitation of TF-IDF-based models, which do not capture contextual relationships such as contrast (e.g., "but").
+
+## Live Demo
+https://airline-sentiment-analysis-mdfpgqpnhbc25vwqckhcj3.streamlit.app/
