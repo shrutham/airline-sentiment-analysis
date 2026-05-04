@@ -14,4 +14,11 @@ if st.button("Analyze"):
     else:
         st.warning("Please enter text")
 
+if result == "Positive":
+    st.success(f"Sentiment: {result}")
+elif result == "Negative":
+    st.error(f"Sentiment: {result}")
+else:
+    st.warning(f"Sentiment: {result}")
+    
 st.caption("Note: Model may misclassify mixed sentiments (e.g., sentences with 'but') due to limited context understanding.")
