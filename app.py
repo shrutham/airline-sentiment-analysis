@@ -7,6 +7,9 @@ user_input = st.text_area(
     "Enter a tweet",
     placeholder="e.g., Flight was delayed but staff were helpful"
 )
+
+result
+
 if st.button("Analyze"):
     if user_input.strip():
         result = predict_sentiment(user_input)
