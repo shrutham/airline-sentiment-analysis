@@ -14,4 +14,4 @@ if st.button("Analyze"):
     else:
         st.warning("Please enter text")
 
-st.info("Note: Model may misclassify mixed sentiment due to lack of context understanding.")
+st.caption("Note: Model may misclassify mixed sentiments (e.g., sentences with 'but') due to limited context understanding.")
