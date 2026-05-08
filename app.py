@@ -11,8 +11,7 @@ user_input = st.text_area(
 if st.button("Analyze"):
     if user_input.strip():
         result = predict_sentiment(user_input)
-        st.success(f"Sentiment: {result}")
-
+        
         if result == "Positive":
             st.success(f"Sentiment: {result}")
         elif result == "Negative":
